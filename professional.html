@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <title>Professional Information</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(54, 39, 39);
+
+        }
+            
+    </style>
+  
+    <center><h1 style="font-style: italic; margin: 2px; color: white;">Resume Builder</h1></center>
+   <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+          
+           
+            <h3 style="color: white; font-style: italic;">Professional Information</h3>
+            
+           <div class="form-group">
+            <label for="namefield" style="color: white;" >  Objective </label>
+            <textarea type=""  class="form-control wefield" placeholder="Enter Here" rows="2" id="ObjectiveField">
+            </textarea>
+            <!-- class me wefield ka use aata h ek aur text box banane m  -->
+            <!-- this above form statement shows that we have created a div which is use to divide 
+            pages into two equal half col-md-6 ka matlb h ki total 12 colam hote h to hamne 1 part
+        6 ka banaya aur dusra bhi 6 ka banaya h  ab label ka use kia h form banane ke lie name le rahe h islie 
+    nmaefield ka use kia h for ke lie aur input m type m text as text input lenge -->
+    <label for="contactfield" style="color: white;"> Experience</label>
+    <textarea type=""  class="form-control wefield" placeholder="Enter Here" rows="2">
+    </textarea>
+
+    <!-- new text area -->
+
+    <div class="container text-center " id="WeAddButton">
+        <!-- text-center ki help se button center m aajega -->
+        <button type="button" class="btn btn-dark">Add</button>
+        <!-- is add button ki help se hamne jo uper m wefield banaya h uska same box is add ko click kar ke aaega -->
+    </div>
+    <label for="" style="color: white;">Acedemic Qualification</label>
+    <textarea type=""  class="form-control aqfield" placeholder="Enter Here" rows="2">
+    </textarea>
+
+    <!-- new textarea   -->
+    <div class="container  text-center" id="AqAddButton">
+        <!-- mt 2 ki help se button center m aajega -->
+        <button type="button" class="btn btn-dark text-center">Add</button>
+        <!-- is add button ki help se hamne jo uper m wefield banaya h uska same box is add ko click kar ke aaega -->
+    </div>
+    <label for="link" style="color: white;">Your Accounts</label>
+    <textarea type="" style="color: black;"  class="form-control acfield" placeholder="Enter Here" rows="1">
+    </textarea>
+    <div class="container text-center " id="AcAddButton">
+        <!-- mt 2 ki help se button center m aajega -->
+        <button type="button" class="btn btn-dark" id="AddAc">Add</button>
+    
+           </div>
+           
+
+       </div>
+       <div class="container text-center mt-3">
+        <button class="btn btn-primary btn-dark"> <a href="profileimage.html" class="btn btn-primary btn-dark"> Upload Image</a></button>
+       </div>
+        </div>
+        <div class="col-md-6">
+            <img src="professional.jpg" height="500" width="670" alt="sorry">
+        </div>
+   
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</body>
+</html>
